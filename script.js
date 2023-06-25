@@ -13,7 +13,7 @@ const getSum = () => {
 	for(let i=0;i<items.length;i++){
 		sum+=parseInt(items[i].innerText);
 	}
-  let result=document.createElement("td");
+  let item=document.createElement("td");
 	item.innerText="Total Value";
 	tr.append(item);
   let price=document.createElement("td");
